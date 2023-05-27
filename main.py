@@ -7,6 +7,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 import key_api
 
+
 bot = Bot(token=key_api.API_TOKEN)
 dp = Dispatcher(bot)
 
